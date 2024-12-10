@@ -3,7 +3,7 @@
 <style>
   /* General styles for all pages */
 body {
-  font-family: Garamond, sans-serif;
+  font-family: Courier, monospace;
   margin: 0;
   padding: 0;
   background-color: #f4f4f9;
@@ -47,18 +47,28 @@ header {
 }
 
 .games h1 {
+  font-family: Lucida Console, monospace;
+  text-align: center;
+  margin-bottom: 30px;
+}
+  
+.games h2 {
+  font-family: Lucida Console, monospace;
   text-align: center;
   margin-bottom: 30px;
 }
 
-.games h2 {
-  text-align: left;
-  margin-bottom: 30px;
-}
-  
+/* Img settings */
 .game img {
   width: auto;
   height: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .game p {
@@ -119,7 +129,7 @@ header {
     <h1>InFold Pte. Ltd. Games</h1>
     <section id="Love and Deepspace" class="games">
       <h2>Love and Deepspace</h2>
-      <img src="98aa5accec75bf256508d2599d449772.jpeg" alt="Love and Deepspace" width="auto" height="300">
+      <img src="98aa5accec75bf256508d2599d449772.jpeg" alt="Love and Deepspace" class="center">
       <p>Platform Played on: Mobile</p>
       <p>Number of Months played: 11</p>
       <p>Money spent: ~$80</p>
